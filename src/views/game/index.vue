@@ -6,6 +6,17 @@
 
 <script>
 export default {
+    metaInfo: {
+      title: '你画我猜', // set a title
+      meta: [{                 // set meta
+        name: 'keyWords',
+        content: '小游戏 你画我猜 多人游戏'
+      }],
+      link: [{                 // set link
+        rel: 'asstes',
+        href: 'https://assets-cdn.github.com/'
+      }]
+    },
     data () {
         return {
             canvas: '',
